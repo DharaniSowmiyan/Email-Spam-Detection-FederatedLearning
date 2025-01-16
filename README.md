@@ -1,7 +1,7 @@
 # Email-Spam-Detection-FederatedLearning
 Developed an email spam detection system by implementing privacy preserving techniques such as Differencial privacy and Federated Learning to train models across decentralized data sources without sharing raw data. Also Implemented NLP’s nltk libraries for feature extraction.Enhanced data privacy and scalability in detecting spam .
 
-			                                                    EMAIL SPAM DETECTION
+			                                        EMAIL SPAM DETECTION
                                                         (PRIVACY USING FEDERATED LEARNING)
 
 1.This project applies federated learning to build a robust spam detection system where model training is distributed across multiple clients, and only model parameters, not the raw data, are aggregated centrally. By machine learning classifiers, each client locally trains a spam detection model on their own email dataset. The central server then aggregates these updates to improve the global model without compromising user privacy.
