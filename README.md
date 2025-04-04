@@ -12,6 +12,10 @@ This repository implements federated learning for email spam classification usin
 
 ✅ Support Vector Machine (SVM)✅ Logistic Regression✅ Naïve Bayes✅ Random Forest
 
+
+SVM gives better F1 score( we are considering f1 score as the dataset is imbalanced )
+![image](https://github.com/user-attachments/assets/0e04a27d-5bc1-4775-9166-a39045a8b956)
+
 Each model is trained across multiple clients in a federated setting, where local models are trained separately and their predictions are aggregated globally.
 
 📊 Approach
